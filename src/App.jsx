@@ -1,13 +1,15 @@
 import { useState } from "react";
 import "./App.css";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <>
-      <div>
-        <h1 className="text-blue-600 text-4xl">Shopping Cart in progress</h1>
-      </div>
-    </>
+    <main>
+      <Navbar />
+      <h1 className="text-blue-600 text-4xl mt-28">
+        Shopping Cart in progress
+      </h1>
+    </main>
   );
 }
 
