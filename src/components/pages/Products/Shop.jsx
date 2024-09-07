@@ -67,7 +67,6 @@ function Shop() {
   return (
     <div className="mt-28">
       <h1>Shop</h1>
-      <p>{console.log(products)}</p>
     </div>
   );
 }
